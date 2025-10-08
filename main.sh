@@ -3,7 +3,7 @@
 # Jeu du Plus ou moins
 
 # TODO: Ask user for max input
-max=100
+max=200
 target=$((RANDOM % $max + 1))
 
 # Fonction qui va écrire plus ou moins, deux arguments: la cible et la proposition
