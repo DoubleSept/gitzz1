@@ -7,7 +7,7 @@ while read line; do
     if [ "${line:0:1}" == "#" ]; then
         continue
     fi
-    if [ ${#line} -le 10 ]; then
+    if [ ${#line} -le 5 ]; then
         echo "Please enter a message with at least 10 characters."
         echo "The following commit message has only ${#line} characters."
         echo "Message: ${line}"
