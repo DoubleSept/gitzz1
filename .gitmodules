@@ -1,3 +1,4 @@
 [submodule "gitzz2"]
 	path = gitzz2
 	url = git@github.com:Doublesept/gitzz2.git
+	tag = v3
