@@ -33,3 +33,6 @@ done
 
 # Victoire !
 echo "Vous avez trouvé en $guess_nb coups !"
+
+read -p "Votre pseudo : " nickname
+echo "$nickname,$guess_nb" >> score.txt 
